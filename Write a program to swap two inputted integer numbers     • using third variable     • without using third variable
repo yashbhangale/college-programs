@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+	int a,b,c;
+	clrscr();
+  printf("\n\nEnter two numbers : \n");
+	scanf("%d%d",&a,&b);
+	printf("Before swapping......\n");
+	printf("a= %d\n",a);
+	printf("b= %d\n",b);
+	c=a;
+	a=b;
+	b=c;
+	printf("After swapping......\n");
+	printf("a= %d\n",a);
+	printf("b= %d\n",b);
+	getch();
+}
+
+
+
+
+
+program 2
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+	int a,b;
+	clrscr();
+	printf("\n\nEnter two numbers : \n");
+	scanf("%d%d",&a,&b);
+	printf("Before swapping......\n");
+	printf("a= %d\n",a);
+	printf("b= %d\n",b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("After swapping......\n");
+	printf("a= %d\n",a);
+	printf("b= %d\n",b);
+	getch();
+}
