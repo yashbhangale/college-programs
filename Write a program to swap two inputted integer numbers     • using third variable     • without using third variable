@@ -4,7 +4,7 @@ void main ()
 {
 	int a,b,c;
 	clrscr();
-  printf("\n\nEnter two numbers : \n");
+  	printf("\n\nEnter two numbers : \n");
 	scanf("%d%d",&a,&b);
 	printf("Before swapping......\n");
 	printf("a= %d\n",a);
