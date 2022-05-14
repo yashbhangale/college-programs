@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n,r,factn=1,factr=1,factnmr=1,i,npr,ncr;
+	printf("Enter n and r : \n");
+	scanf("%d%d",&n,&r);
+
+	for(i=1;i<=n;++i) factn=factn*i;
+	for(i=1;i<=r;++i) factr=factr*i;
+	for(i=1;i<=n-r;++i) factnmr=factnmr*i;
+	npr=factn/factnmr;
+	ncr=npr/factr;
+	printf("Permutation value : %d \n",npr);
+	printf("Combination Value : %d \n",ncr);
+	getch();
+}
